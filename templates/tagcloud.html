@@ -3,7 +3,7 @@
   <script>
   var tags = [
     {% for tag in tag_cloud %}
-    {text: "#{{ tag.0 }}", weight: {{ TAG_CLOUD_STEPS+1-tag.1 }}, link: '{{ SITEURL }}/{{ tag.0.url }}', html: {title: "Alle Posts zum Thema {{ tag.0 }}"}},
+    {text: "#{{ tag.0 }}", weight: {{ TAG_CLOUD_STEPS+1-tag.1 }}, link: '{{ SITEURL }}/{{ tag.0.url }}', html: {title: "All Posts on Tag {{ tag.0 }}"}},
     {% endfor %}
     /* ... */
   ];
