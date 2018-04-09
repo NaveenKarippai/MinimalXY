@@ -196,6 +196,10 @@ ul.social li a:hover {
   width: 100%;
   height: auto;
   font-size: 11pt;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 #footer-copyright {
